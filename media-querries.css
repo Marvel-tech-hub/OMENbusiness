@@ -1,0 +1,54 @@
+/* for tablet*/
+
+    @media (min-width: 768px) and (max-width: 1024px){
+        #handburger_nav {
+                display: none;
+            }
+            #destop_nav{
+                display: flex;
+            }
+        
+        }
+
+/* for laptop*/
+@media (min-width: 1025px) {
+    #handburger_nav{
+            display: none;
+        }
+                #destop_nav {
+                    display: flex;
+                }
+
+
+
+}
+
+/*RESPONSIVE */ @media (max-width: 768px) {
+    .hero {
+        height: 60vh;
+        padding: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .hero-btn {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+    }
+}

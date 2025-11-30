@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ReCircle BeninMart</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="media-querries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="clothing/clothing.html">
+</head>
+
+<body>
+    <nav id="destop_nav">
+        <div class="logo">ReCircle BeninMart</div>
+        <div>
+            <ul class="nav_links">
+                <li><a href="#about">Accessories</a></li>
+                <li><a href="#experience">Clothing</a></li>
+                <li><a href="#projects">Home & Kitchen</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="handburger_nav">
+        <div class="logo">ReCircle BeninMart</div>
+        <div class="handburger_menu"></div>
+        <div class="handburger_icon" onclick="toggle_menu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu_links">
+            <li><a href="#about" onclick="toggle_menu()">Accessories</a></li>
+            <li><a href="#experience" onclick="toggle_menu()">Clothing</a></li>
+            <li><a href="#projects" onclick="toggle_menu()">Home & Kitchen</a></li>
+            <li><a href="#contact" onclick="toggle_menu()">contact</a></li>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+    <main>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Buy Quality Items at Affordable Prices</h1>
+            <p>Shop new and used electronics, clothing, and more — all in one place.</p>
+            <a href="#experience" class="hero-btn">Shop Now</a>
+        </div>
+    </section>
+    
+    <!-- accesories section -->
+    <section class="product-grid" id="about">
+    
+        <div class="product-card">
+            <img src="accessories/G_shock.jpeg" alt="Red G-shock">
+            <h3>Red G-shock</h3>
+            <p class="price">₦85K</p>
+            <p class="condition new">New</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdftJoIly6trO91Rs4y0W3Y6wNjQtKeGj2g_ilRA9hw4rlPlA/viewform?usp=pp_url&entry.1000027=Red%20G-shock&entry.305915110=₦85K&entry.542145698=New" class="btn">Buy Now</a>
+        </div>
+    
+        <div class="product-card">
+            <img src="accessories/Gray-G-shock.jpeg" alt="Gray G-shock">
+            <h3>Gray G-shock</h3>
+            <p class="price">₦90k</p>
+            <p class="condition new">New</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdftJoIly6trO91Rs4y0W3Y6wNjQtKeGj2g_ilRA9hw4rlPlA/viewform?usp=pp_url&entry.1000027=Gray%20G-shock&entry.305915110=₦90k&entry.542145698=New" class="btn">Buy Now</a>
+        </div>
+    
+    </section>
+    <section class="product-grid" id="about">
+    
+        <div class="product-card">
+            <img src="accessories/long-battery.jpeg" alt="Long-battery">
+            <h3>Long-battery</h3>
+            <p class="price">₦3,000</p>
+            <p class="condition used">Used</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdftJoIly6trO91Rs4y0W3Y6wNjQtKeGj2g_ilRA9hw4rlPlA/viewform?usp=pp_url&entry.1000027=Long-battery&entry.305915110=₦3,000&entry.542145698=used" class="btn">Buy Now</a>
+        </div>
+    
+        <div class="product-card">
+            <img src="accessories/Wireless-keyboard.jpeg" alt="Wireless-keyboard">
+            <h3>Wireless-keyboard</h3>
+            <p class="price">₦7,000</p>
+            <p class="condition new" style="color: grey;">Sold</p>
+            <a href="javascript:void(0)" class="btn" style="background-color: grey;">Buy Now</a>
+        </div>
+    
+    </section>
+    <!-- accesories section -->
+
+    <hr>
+
+    <!-- clothing section -->
+    <section class="product-grid" id="experience">
+        <div class="product-card">
+            <img src="clothing/black-jean.jpeg" alt="Black-jean Size: 2XL">
+            <h3>Black-jean Size: 2XL</h3>
+            <p class="price">₦20k</p>
+            <p class="condition new">New</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdftJoIly6trO91Rs4y0W3Y6wNjQtKeGj2g_ilRA9hw4rlPlA/viewform?usp=pp_url&entry.1000027=Black-jean%20Size:%202XL&entry.305915110=₦20k&entry.542145698=New" class="btn">Buy Now</a>
+        </div>
+    
+        <div class="product-card">
+            <img src="clothing/SUPREME-Sweatpant.jpeg" alt="SUPREME-Sweatpant Size:XXL">
+            <h3>SUPREME-Sweatpant Size:XXL</h3>
+            <p class="price">₦22,500</p>
+            <p class="condition new">New</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdftJoIly6trO91Rs4y0W3Y6wNjQtKeGj2g_ilRA9hw4rlPlA/viewform?usp=pp_url&entry.1000027=SUPREME-Sweatpant%20Size:XXL&entry.305915110=₦22,500&entry.542145698=New" class="btn">Buy Now</a>
+        </div>
+    
+    </section>
+    <section class="product-grid" id="experience">
+        <div class="product-card">
+            <img src="clothing/Chrome-Hearth-T-Shirt.jpeg" alt="Chrome-Hearth T-shirt Size: XXL">
+            <h3>Chrome-Hearth T-shirt Size: XXL</h3>
+            <p class="price">₦17,000</p>
+            <p class="condition new">new</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdftJoIly6trO91Rs4y0W3Y6wNjQtKeGj2g_ilRA9hw4rlPlA/viewform?usp=pp_url&entry.1000027=Chrome-Hearth%20T-shirt%20Size:%20XXL&entry.305915110=₦17,000&entry.542145698=New" class="btn">Buy Now</a>
+        </div>
+    
+        <div class="product-card">
+            <img src="clothing/Dior-x-Jordan.jpeg" alt="Dior x Jordan Size:XXL">
+            <h3>Dior x Jordan Size:XXL</h3>
+            <p class="price">₦17,000</p>
+            <p class="condition new">New</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdftJoIly6trO91Rs4y0W3Y6wNjQtKeGj2g_ilRA9hw4rlPlA/viewform?usp=pp_url&entry.1000027=Dior%20x%20Jordan%20Size:XXL&entry.305915110=₦17,000&entry.542145698=New" class="btn">Buy Now</a>
+            <div>
+                <a href="clothing/clothing.html" class="btn" style="background-color: green;">MORE</a>
+            </div>
+        </div>
+    
+    </section>
+    
+    <!-- clothing section -->
+    
+<hr>
+    <!-- home and kitchen -->                     
+                         <!-- nor forget say you style this section to display none-->
+    <section class="product-grid" id="projects" style="display: none;">
+        <div class="product-card">
+            <img src="blue-shirt.jpg" alt="Blue Shirt">
+            <h3>Blue Casual Shirt</h3>
+            <p class="price">₦4,000</p>
+            <p class="condition used">Used</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdftJoIly6trO91Rs4y0W3Y6wNjQtKeGj2g_ilRA9hw4rlPlA/viewform?usp=pp_url&entry.1000027=product&entry.305915110=price&entry.542145698=New" class="btn">Buy Now</a>
+        </div>
+    
+        <div class="product-card">
+            <img src="laptop.jpg" alt="Laptop">
+            <h3>HP Laptop 8GB RAM</h3>
+            <p class="price">₦120,000</p>
+            <p class="condition new">New</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdftJoIly6trO91Rs4y0W3Y6wNjQtKeGj2g_ilRA9hw4rlPlA/viewform?usp=pp_url&entry.1000027=product&entry.305915110=price&entry.542145698=New" class="btn">Buy Now</a>
+        </div>
+    
+    </section>
+    <section class="product-grid" id="projects" style="display: none;">
+        <div class="product-card">
+            <img src="blue-shirt.jpg" alt="Blue Shirt">
+            <h3>Blue Casual Shirt</h3>
+            <p class="price">₦4,000</p>
+            <p class="condition used">Used</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdftJoIly6trO91Rs4y0W3Y6wNjQtKeGj2g_ilRA9hw4rlPlA/viewform?usp=pp_url&entry.1000027=product&entry.305915110=price&entry.542145698=New" class="btn">Buy Now</a>
+        </div>
+    
+        <div class="product-card">
+            <img src="laptop.jpg" alt="Laptop">
+            <h3>HP Laptop 8GB RAM</h3>
+            <p class="price">₦120,000</p>
+            <p class="condition new">New</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdftJoIly6trO91Rs4y0W3Y6wNjQtKeGj2g_ilRA9hw4rlPlA/viewform?usp=pp_url&entry.1000027=product&entry.305915110=price&entry.542145698=New" class="btn">Buy Now</a>
+        </div>
+    </section>
+    <!-- home and kitchen -->
+    <hr>
+    </main>
+</body>
+<footer class="footer" id="contact" style="height: 90vh;">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h2 class="footer-logo">ReCircle BeninMart</h2>
+            <p>Your trusted marketplace for new and used items.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Navigate</h3>
+            <ul>
+                <li><a href="#about">Accessories</a></li>
+                <li><a href="#experience">Clothing</a></li>
+                <li><a href="#projects">Home & Kitchen</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+
+        
+
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Email: marvelscout2004@gmail.com</p>
+            <p>Phone: +234 806 658 8004</p>
+            <div class="social-icons">
+                <a href="https://ng.linkedin.com/in/marvel-scout-6578bb280"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/2348066588004"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://x.com/wil68882?s=21"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 ReCircle BeninMart. All rights reserved.</p>
+    </div>
+</footer>
+
+</html>
